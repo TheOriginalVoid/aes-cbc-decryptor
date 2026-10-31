@@ -1,0 +1,13 @@
+[workspace]
+resolver = "2"
+members = ["no-padding", "pkcs7", "zero-padding", "iso7816", "ansi-x923"]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+
+[workspace.dependencies]
+aes = "0.8"
+cbc = { version = "0.1", features = ["alloc"] }
+hex = "0.4"

@@ -1,0 +1,10 @@
+[package]
+name = "cbc-no-padding"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+aes.workspace = true
+cbc.workspace = true
+hex.workspace = true
